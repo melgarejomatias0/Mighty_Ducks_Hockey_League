@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="registration" content="width=device-width, initial-scale=1.0">
+    <title>registration_form</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <h1>Registration Forms</h1>
+    <div class="nav_bar">
+        <a class="botones" href="/home.html">HOME</a>
+        <a class="botones" href="/about.html">ABOUT MDHL</a>
+        <a class="botones" href="/contact.html">CONTACT</a>
+        <a class="botones" href="/game-info.html">Game Info</a>
+        <a class="botones" href="/rules.html">Rules</a>
+        <a class="botones" href="/registration_forms.html">Registration</a>
+    </div>
+    
+    <div id="formulario"> 
+        
+        <form action="show_data.html" method="get">
+            <fieldset id="datos"> 
+                <label>
+                    <span>Name:</span>
+                    <input type="text" name="name" placeholder=" name">
+                </label>
+                <label>
+                    <span>Last Name:</span>
+                    <input type="text" name="last name" placeholder="last name">
+                </label>
+                <label>
+                    <span>Street addres:</span>
+                    <input type="text" name="street addres" placeholder="street addres">
+                </label>
+                <label> City:</span>
+                    <input type="city" placeholder="city">
+                </label>
+                <label>
+                    <span>Zip code:</span>
+                    <input type="text" name="Zip code" placeholder=" Zip code">
+                </label>
+                <label>
+                    <span>Birth date(mm/dd/yyyy):</span>
+                    <input type="date" name="birth date" placeholder="birth date">
+                </label>
+                <label>
+                    <span>Gender:</span>
+                    <input type="text" name="gender" placeholder="gender">
+                </label>
+                <label>
+                <span>Grade</span>
+                <span>Pre-School</span>
+                <input type="radio" name="Grade" value="Pre-School">
+                <span>1st</span>
+                <input type="radio" name="Grade" value="1st">
+                <span>2st</span>
+                <input type="radio" name="Grade" value="2st" >
+                <span>3st</span>
+                <input type="radio" name="Grade" value="3st" >
+                <span>4st</span>
+                <input type="radio" name="Grade" value="4st" >
+                <span>5st</span>
+                <input type="radio" name="Grade" value="5st">
+                </label>
+            </fieldset>
+    
+            <fieldset id="closets">
+                <legend>which elementary school do you live near?</legend>
+                <input type="radio" name="elementary school" value="AJ Katzenmaier" >
+                <span>AJ Katzenmaier</span>
+                <input type="radio" name="elementary school" value="Greebay" >
+                <span>Greebay</span>
+                <input type="radio" name="elementary school" value="Howard A Yeager" >
+                <span>Howard A Yeager</span>
+                <input type="radio" name="elementary school" value="Marjorie P Hart" >
+                <span>Marjorie P Hart</span>
+                <input type="radio" name="elementary school" value="North Elementary" >
+                <span>North Elementary</span>
+                <input type="radio" name="elementary school" value="South Elementary" >
+                <span>South Elementary</span>
+                
+            </fieldset>
+
+            <fieldset id="position">
+                <legend>Whath position(s) do you normally play? (check all the apply)</legend>
+                <input type="checkbox" name="position" value="Forward" >
+                <span>Forward</span>
+                <input type="checkbox" name="position" value="Defense" >
+                <span>Defense</span>
+                <input type="checkbox" name="position" value="Midfield" >
+                <span>Midfield</span>
+                <input type="checkbox" name="position" value="Goalkeeper" >
+                <span>Goalkeeper</span>
+            
+            </fieldset>
+
+            <fieldset id="Uniform">
+                <legend>Uniform size</legend>
+                <input type="radio" name="Uniform" value="youth Smal" >
+                <span>youth Smal</span>
+                <input type="radio" name="Uniform" value="Youth Medium" >
+                <span>Youth Medium</span>
+                <input type="radio" name="Uniform" value="Youth Large" >
+                <span>Youth Large</span>
+                <input type="radio" name="Uniform" value="Small" >
+                <span>Small</span>
+                <input type="radio" name="Uniform" value="Medium" >
+                <span>Medium</span>
+                <input type="radio" name="Uniform" value="Large" >
+                <span>Large</span>
+                <input type="radio" name="Uniform" value="Extra-Large" >
+                <span>Extra-Large</span>
+            </fieldset>
+            
+            <dl>
+                <dt>Permission to Play</dt>
+                <dd> Permission to Play
+                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbing transported to or from MDHL sponsored activities,which transportation
+                 By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
+                
+                </dd>
+            </dl>
+
+        
+            <label>
+                <span>Parent/GuardianSignature:</span>
+                <input type="text" name="signature" placeholder="Enter your name">
+            </label>
+            <label>
+                <span>Date:</span>
+                <input type="text" name="date" placeholder="Enter the date">
+            </label>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d640596.0728543059!2d-87.89114110903277!3d41.768255377075235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f69da7%3A0x15e198c063fc787c!2sAJ%20Katzenmaier%20Elementary!5e0!3m2!1ses-419!2sar!4v1692014029696!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</form>
+</body>
+</html>
